@@ -13,7 +13,7 @@ void swap(int*a , int*b  );
     printf("\n");
 }
 
-// Function to swap two integers
+
 void swap(int* a, int* b) {
     int temp = *a;
     *a = *b;
