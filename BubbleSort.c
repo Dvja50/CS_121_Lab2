@@ -23,9 +23,7 @@ void swap(int* a, int* b) {
 
 void sort(int* values) {
     for (int i = 0; i < MAX - 1; i++) {
-        
         for (int j = 0; j < MAX - 1 - i; j++) {
-            
             if (values[j] > values[j + 1]) {
                 swap(&values[j], &values[j + 1]);
 	       	printValues(values);
